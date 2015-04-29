@@ -1,0 +1,128 @@
+
+/*
+********
+Navigation Bar
+********
+*/
+
+.top-nav {
+	border-bottom: 1px solid gray;
+	height: 8rem;
+}
+
+.top-nav .content {
+	width: 65rem;
+	margin: 1rem auto;
+	/*border: 1px solid;*/
+
+}
+
+.top-nav .nav-links {
+	margin: .5rem 4rem;
+}
+
+.top-nav .nav-links a {
+	text-decoration: none;
+	color: #A2A2A2;
+	font-family: 'Open Sans';
+	font-size: 1.2rem;
+}
+
+.top-nav .nav-links a:hover {
+	color: #313131;
+}
+
+.top-nav .nav-links li {
+	float: right;
+	display: inline;
+	padding: 2rem;	
+}
+
+.top-nav .logo {
+	width: 8rem;
+	margin-top: -.5rem;
+}
+
+
+/*
+********
+Carousel / Bulletin Board
+********
+*/
+
+.board  {
+	background-image: url('../images/skyline.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 35rem;
+	width: 100%
+	overflow: auto;
+	font-
+}
+
+.board .content {
+	width: 65rem;
+}
+
+.board .content h1 {
+	font-family: 'Open Sans';
+	color: #ffffff;
+	font-size: 2.5rem;
+	font-weight: 700;
+	width: 40rem;
+	padding-top: 5rem;
+	padding-left: 35rem;
+}
+
+
+/*
+********
+Info Section
+********
+*/
+
+.info-section .content {
+	font-family: 'Open Sans', sans-serif;
+	height: 35rem;
+	width: 65rem;
+	margin: 0 auto;
+	/*border: 1px solid;*/ 
+}
+
+.info-section .content h2 {
+	text-align: center;
+	padding: 1rem;
+	font-size: 2rem;
+	font-weight: 700;
+	color: #313131;
+}
+
+.info-section .info-columns {
+	/*border: 1px solid black;*/
+	display: inline;
+}
+
+#col-1, #col-2 {
+	height: 20rem;
+	width: 28rem;
+	margin-top: 2.5rem;
+}
+
+#col-1 {
+	float: left;
+	margin-left: 2rem;
+}
+
+#col-2 {
+	float: right;
+	margin-right: 2rem;	
+}
+
+#col-1 h3, #col-2 h3 {
+	font-size: 1.2rem;
+	color: #313131;
+	font-weight: 600;
+	padding-bottom: 1rem;
+}
+
